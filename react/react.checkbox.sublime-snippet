@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<${1:namespace}.Checkbox text="${2:hello}" value="${3:id}" isChecked="${4:false}" isDisabled="${5:false}" onChange="${6:}" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rxcheck</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>React Checkbox</description>
+</snippet>
