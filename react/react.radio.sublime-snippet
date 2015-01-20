@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<${1:namespace}.Radio text="${2:hello}" value="${3:id}" isChecked="${4:false}" isDisabled="${5:false}" onChange="${6:}" />
+<${1:namespace}.Radio text="${2:hello}" value="${3:id}" isChecked={${4:false}} isDisabled={${5:false}} onChange={this.onChange} />
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rxradio</tabTrigger>

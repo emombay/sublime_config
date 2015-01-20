@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<${1:namespace}.Select value="${2:selectedValue}" data="${3:data}" isDisabled="${4:false}" onChange="${5:}" />
+<${1:namespace}.Select value="${2:selectedValue}" data="${3:data}" isDisabled={${4:false}} onChange={this.onChange} />
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rxselect</tabTrigger>

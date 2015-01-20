@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<${1:namespace}.Button type="${2:button,submit,reset}" value="${3:value}" isDisabled="${4:false}" onClick="${5:}" />
+<${1:namespace}.Button type="${2:button,submit,reset}" value="${3:value}" isDisabled={${4:false}} onClick={this.onClick} />
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rxbutton</tabTrigger>
