@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+(function(sut_class){
+  var sut;
+  var utils = React.addons.TestUtils;
+
+  function create_sut() {
+    var element = React.createElement(sut_class);
+    var instance = utils.renderIntoDocument(element);
+    return instance;
+  };
+
+  describe('$2', function(){
+    describe('when rendered', function(){
+      var result;
+
+      beforeEach(function(){
+        sut = create_sut();
+      });
+
+      it('$3', function(){
+        $4
+      });
+    });
+  });
+ 	
+ })($1);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rxfulldesc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
