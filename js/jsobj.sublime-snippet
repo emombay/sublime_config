@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+Object.extend({
+    constructor: function($1){
+		$0
+    }
+  });
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsobj</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>P.O.J.O Textbox</description>
+</snippet>
