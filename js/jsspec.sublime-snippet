@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+(function(sut_class){
+	describe('$1', function(){
+		var sut;
+
+		function create_sut() {
+			return new sut_class();
+		};
+
+		describe('$2', function(){
+			it('$3', function(){
+				$0
+			});      
+		});
+	});
+})(bx.$1)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jspec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Javascript spec</description>
+</snippet>
