@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+// haxor: $1
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>todo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>haxor comment</description>
+</snippet>
