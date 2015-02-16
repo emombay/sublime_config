@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+root.configure_the_container(function(container){
+	container.register_instance($1,$2);
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsrctc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>root.configure_the_container</description>
+</snippet>

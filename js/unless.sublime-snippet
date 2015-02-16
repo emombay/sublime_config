@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+var self = this;
+core_utils.unless(core_utils.is_undefined(this.react_class.setState), function() {
+	self.react_class.setState({running_total: self.get_running_total()});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsunless</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>core_utils.unless</description>
+</snippet>
