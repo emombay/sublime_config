@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 var self = this;
-core_utils.unless(core_utils.is_undefined(this.react_class.setState), function() {
-	self.react_class.setState({running_total: self.get_running_total()});
+core_utils.unless($1, function() {
+	$2
 });
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
