@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 'use strict';
-(function(root){
-  $1
-})(bx);
+(function(root$1$2){
+  $3
+})(bx$1);
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
