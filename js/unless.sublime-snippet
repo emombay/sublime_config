@@ -1,14 +1,13 @@
 <snippet>
 	<content><![CDATA[
-'use strict';
-(function(root$1$2){
-  $3
-})(bx$1);
-
+var self = this;
+core_utils.unless($1, function() {
+	$2
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>jsbts</tabTrigger>
+	<tabTrigger>jsunless</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
-	<description>Javascript file bootstrap</description>
+	<description>core_utils.unless</description>
 </snippet>
