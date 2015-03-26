@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+root.configure_the_container(function(container){		
+	container$1
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rctc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>root.configure_the_container</description>
+</snippet>
