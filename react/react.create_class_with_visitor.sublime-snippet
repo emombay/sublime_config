@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 (function(root){  	
-root.MyClassName = root.define_react_class({  
+root.MyClassName = root.define_visitor_react_class({  
 	dependencies: ["data_cache"],
 	getInitialState: function() {
       return {
@@ -16,7 +16,7 @@ root.MyClassName = root.define_react_class({
   });
  })(bx);
 ]]></content>
-	<tabTrigger>rxcc</tabTrigger>
+	<tabTrigger>rxccv</tabTrigger>
 	<scope>source.js</scope>
 	<description>Blue Utility specific React.createClass</description>
 </snippet>
