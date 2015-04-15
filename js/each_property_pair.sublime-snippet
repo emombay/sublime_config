@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+core_utils.each_property_pair($1, function(name$2, value$3) {
+	$4
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsepp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>core_utils.each_property_pair</description>
+</snippet>
