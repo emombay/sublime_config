@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+core_utils.convert_argument_object_to_array(arguments);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jscaota</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>core_utils.convert_argument_object_to_array</description>
+</snippet>
