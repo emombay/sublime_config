@@ -1,20 +1,25 @@
 <snippet>
 	<content><![CDATA[
-(function(root){  	
-root.MyClassName = root.define_visitor_react_class({  
-	dependencies: ["data_cache"],
-	getInitialState: function() {
+(function(root, ns){  	
+	ns.$2$1 = root.define_react_class({
+		displayName: "$2$1",
+	
+		dependencies: ["data_cache"],
+	
+		getInitialState: function() {
       return {
-        some_state_value: false
+        some_state_value: false$3
       };
     },
+	
   	render: function() {
+			$4
   		return (
   			<div></div>
   		);
   	}
-  });
- })(bx);
+	});
+})(bx, bx.$1);
 ]]></content>
 	<tabTrigger>rxccv</tabTrigger>
 	<scope>source.js</scope>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+$2var ${1/^(\w)|(?: (\w))/(?1$1:)(?2_$2:)/g}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsvar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Javascript snake_case</description>
+</snippet>
